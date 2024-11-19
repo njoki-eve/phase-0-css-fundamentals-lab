@@ -1,3 +1,64 @@
-hi{
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
 }
+h1{
+  text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+  nav a{
+    padding: 0 10px;
+    background-color: gray;
+  }
+  
+ figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+ }
+ figure img{
+max-width: 900px;
+ }
+ figure figcaption {
+  font-size: small;
+  text-align: center;
+ }
+ #featured-property{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+  #featured-property p{
+    width: 800px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px auto;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  #details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: red;
+    }
+    #details h3{
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    #details p {
+      font-size: 1em;
+      color: #333;
+    }
+    #details a {
+      color: #000;
+      text-decoration: none;
+    }
+    #details a hover {
+      text-decoration: underline;
+    }
